@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashwat Fitness</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        ul {
+            padding-inline-start: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(gym.jpg);
+            background-size: 2500px;
+            color: white;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            color: white;
+        }
+
+        .left img {
+            width: 104px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 13px;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            background-color: rgb(0, 0, 0);
+            border-radius: 13px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 35px;
+            top: 28px;
+            color: white;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 17px;
+            color: white;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(87, 87, 87);
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+
+        .container {
+            border: 2px solid rgb(255, 255, 255);
+            margin: 106px 80px;
+            padding: 60px;
+            width: 33%;
+            border-radius: 28px;
+            font-size: 15px;
+        }
+
+        .form-group input {
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            width: 370px;
+            padding: 10px;
+            border: 2px solid rgb(255, 255, 255);
+            margin: 8px auto;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .form-group button {
+            display: inline-block;
+            width: 23%;
+            margin: auto;
+        }
+
+        .btn1 {
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        #button_sub {
+            display: inline-block;
+            width: 100%;
+            margin: auto;
+            margin-top: 5px;
+        }
+
+        .btn1:hover {
+            background-color: rgb(87, 87, 87);
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="Relod">
+            <div>Baba Fitness</div>
+        </div>
+        <!-- Mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Kanpur Now</h1>
+        <form action="a.php">
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="Enter your Locality">
+            </div>
+        </form>
+        <button type="submit" class="btn1" id="button_sub">Submit</button>
+    </div>
+</body>
+
+</html>
